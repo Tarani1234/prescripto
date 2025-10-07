@@ -37,7 +37,6 @@ import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 
-
 export const assets = {
     appointment_img,
     header_img,
@@ -82,7 +81,7 @@ export const specialityData = [
     {
         speciality: 'Gastroenterologist',
         image: Gastroenterologist
-    },
+    }
 ]
 
 export const doctors = [

@@ -9,6 +9,9 @@ import Myprofile from "./pages/Myprofile";
 import MyAppointment from "./pages/MyAppointment";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Appointment from "./pages/Appointment";
+
+
 const App = () => {
   return (
     <>
@@ -16,14 +19,14 @@ const App = () => {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/doctor" element={<Doctor />} />
+          <Route path="/doctors" element={<Doctor />} />
           <Route path="/doctors/:speciality" element={<Doctor />} />
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/my-profile" element={<Myprofile />} />
           <Route path="/my-appoinments" element={<MyAppointment/>}/>
-          <Route path="/appoitment/:docid" element={<MyAppointment/>}/> 
+           <Route path="/appointment/:docId" element={<Appointment/>}/> 
         </Routes>
         <Footer/>
       </div>

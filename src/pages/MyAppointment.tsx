@@ -1,9 +1,10 @@
 
 
+
 const MyAppointment = () => {
   return (
     <div>
-       myappoitment
+      
     </div>
   )
 }
